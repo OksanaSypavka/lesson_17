@@ -535,6 +535,13 @@ body {
    border-radius: 4px;
 }
 
+@media(max-width: 937px) {
+
+   .box {
+      flex-direction: column;
+   }
+}
+
 @media(max-width: 470px) {
 
    .box__cards__content {
@@ -557,6 +564,8 @@ body {
       font-size: 36px;
    }
 }
+
+
 
 
 .box__cards__image {
